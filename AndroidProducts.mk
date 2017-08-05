@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_idol3.mk
+    $(LOCAL_DIR)/aosp_idol3.mk

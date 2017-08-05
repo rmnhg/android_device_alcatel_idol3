@@ -16,6 +16,3 @@ PRODUCT_PACKAGES += \
     copybit.msm8916 \
     hwcomposer.msm8916 \
     memtrack.msm8916
-
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)

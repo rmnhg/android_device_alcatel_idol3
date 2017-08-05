@@ -23,6 +23,6 @@ $(call inherit-product, device/alcatel/idol3/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := idol3
 PRODUCT_NAME := aosp_idol3
-PRODUCT_BRAND := TCL
-PRODUCT_MODEL := idol3
-PRODUCT_MANUFACTURER := TCL
+PRODUCT_BRAND := Alcatel
+PRODUCT_MODEL := Onetouch Idol 3
+PRODUCT_MANUFACTURER := Alcatel

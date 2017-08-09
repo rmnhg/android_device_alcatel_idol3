@@ -17,17 +17,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from idol3 device
-$(call inherit-product, device/alcatel/idol3/device.mk)
-
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
-$(call inherit-product-if-exists, vendor/alcatel/idol3/idol3-vendor.mk)
+$(call inherit-product, vendor/alcatel/idol3/idol3-vendor.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := idol3
